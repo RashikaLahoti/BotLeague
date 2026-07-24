@@ -104,7 +104,7 @@ The output bundle will be generated in the `dist/` directory.
 
 ## Deployment
 
-- **Live Demo**: [Live Demo Placeholder Link](https://bot-league-puce.vercel.app/)
+- **Live Demo**: [https://bot-league-puce.vercel.app/](https://bot-league-puce.vercel.app/)
 - **GitHub Repository**: [https://github.com/RashikaLahoti/BotLeague](https://github.com/RashikaLahoti/BotLeague)
 
 ## License
