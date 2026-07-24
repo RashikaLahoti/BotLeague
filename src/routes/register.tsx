@@ -27,7 +27,7 @@ function RegisterComponent() {
     }
 
     toast.success("Account created successfully! Welcome to BotLeague.");
-    navigate({ to: "/login" });
+    navigate({ to: "/" });
   };
 
   return (

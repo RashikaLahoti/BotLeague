@@ -70,8 +70,7 @@ export function EcosystemSection() {
   return (
     <section className="max-w-[1440px] mx-auto px-6 py-16">
       <h2
-        className={`${orb} uppercase tracking-wider text-white`}
-        style={{ fontSize: "50px", fontWeight: 700 }}
+        className={`${orb} text-[32px] md:text-[48px] font-bold uppercase tracking-wider text-white leading-tight`}
       >
         Join the Ecosystem
       </h2>

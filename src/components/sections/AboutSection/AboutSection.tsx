@@ -9,8 +9,7 @@ export function AboutSection() {
     <section className="w-full bg-[#1A1919]">
       <div className="max-w-[1440px] mx-auto px-6 py-26">
         <h2
-          className={`${orb} uppercase tracking-wider text-white`}
-          style={{ fontSize: "50px", fontWeight: 700 }}
+          className={`${orb} text-[32px] md:text-[48px] font-bold uppercase tracking-wider text-white leading-tight`}
         >
           What is BotLeague?
         </h2>

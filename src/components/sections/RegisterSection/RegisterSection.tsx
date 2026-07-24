@@ -1,4 +1,4 @@
-import { registerItems } from "@/data/sectionsData";
+ import { registerItems } from "@/data/sectionsData";
 import leaderboard from "@/assets/images/leaderboard.png";
 
 const orb = "font-orbitron";
@@ -14,7 +14,7 @@ export function RegisterSection() {
         >
           Why Register?
         </p>
-        <h2 className={`${orb} uppercase text-bold text-white`} style={{ fontSize: "50px" }}>
+        <h2 className={`${orb} uppercase text-bold text-white leading-tight mb-5`} style={{ fontSize: "50px" }}>
           The League Advantage
         </h2>
 

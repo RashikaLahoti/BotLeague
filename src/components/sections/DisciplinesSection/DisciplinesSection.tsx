@@ -11,8 +11,7 @@ export function DisciplinesSection() {
           Sports
         </p>
         <h2
-          className={`${orb} uppercase text-white tracking-wider mt-1`}
-          style={{ fontSize: "50px", fontWeight: 700 }}
+          className={`${orb} text-[32px] md:text-[48px] font-bold uppercase text-white tracking-wider mt-1 leading-tight`}
         >
           Competition Disciplines
         </h2>

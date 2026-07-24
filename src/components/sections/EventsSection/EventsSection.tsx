@@ -156,7 +156,7 @@ function BracketDiagram() {
 
 function CompetitionCard({ title, subtitle, status }: CompetitionCardProps) {
   return (
-    <div className="h-[403px] w-full rounded-[8px] border border-[#444444] bg-[#1A1919] px-[17px] pt-[22px]">
+    <div className="h-auto min-h-[403px] xl:h-[403px] w-full rounded-[8px] border border-[#444444] bg-[#1A1919] px-[17px] pt-[22px]">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
@@ -178,8 +178,8 @@ function CompetitionCard({ title, subtitle, status }: CompetitionCardProps) {
       <div className="mt-[11px] h-[2px] w-full bg-[#383838]" />
 
       {/* Bracket */}
-      <div className="mt-[20px] flex justify-center overflow-x-auto w-full">
-        <div className="min-w-[365px]">
+      <div className="mt-[20px] flex justify-center items-center overflow-hidden w-full h-[245px]">
+        <div className="scale-[0.65] min-[360px]:scale-[0.75] min-[400px]:scale-[0.85] min-[450px]:scale-100 origin-center flex-shrink-0">
           <BracketDiagram />
         </div>
       </div>
@@ -232,7 +232,7 @@ function UpcomingCard({ title, date, location, category }: UpcomingEvent) {
 
 function ResultCard({ results }: { results: PastResult[] }) {
   return (
-    <div className="h-[403px] rounded-[8px] border border-[#444444] bg-[#1A1919] px-[22px]">
+    <div className="h-auto min-h-[403px] xl:h-[403px] rounded-[8px] border border-[#444444] bg-[#1A1919] px-[22px]">
       {results.map((result, index) => (
         <div
           key={index}
