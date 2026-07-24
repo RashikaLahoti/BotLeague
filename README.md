@@ -104,16 +104,8 @@ The output bundle will be generated in the `dist/` directory.
 
 ## Deployment
 
-- **Live Demo**: [Live Demo Placeholder Link](https://botleague.example.com)
+- **Live Demo**: [Live Demo Placeholder Link](https://bot-league-puce.vercel.app/)
 - **GitHub Repository**: [https://github.com/RashikaLahoti/BotLeague](https://github.com/RashikaLahoti/BotLeague)
-
-## Future Improvements
-
-- **Dark Mode Support**: Implementing a standard CSS variable-based dark/light theme toggle sync.
-- **Transition Animations**: Adding micro-interactions and route transition transitions using libraries like Framer Motion.
-- **Accessibility (a11y) Enhancements**: Adding complete ARIA attribute coverages and custom keyboard navigation controls.
-- **Performance Optimization**: Dynamic lazy loading of heavy section components and WebP image optimizations.
-- **SEO Improvements**: Custom routing metadata injection via router loaders to support search engine crawlers.
 
 ## License
 
