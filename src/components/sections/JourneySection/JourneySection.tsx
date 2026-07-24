@@ -7,15 +7,14 @@ export function JourneySection() {
   return (
     <section className="max-w-[1440px] mx-auto px-6 mb-10 mt-10 text-center">
       <p
-        className={`${rob} uppercase text-bl-red tracking-widest`}
-        style={{ fontSize: "30px", fontWeight: 600 }}
+        className={`${rob} text-[22px] md:text-[30px] font-semibold uppercase text-bl-red tracking-widest leading-tight`}
       >
         User Journey
       </p>
-      <h2 className={`${orb} uppercase text-white`} style={{ fontSize: "45px", fontWeight: 700 }}>
+      <h2 className={`${orb} text-[32px] md:text-[48px] font-bold uppercase text-white leading-tight mt-1`}>
         Your Path To The League
       </h2>
-      <p className={`${rob} text-bl-muted`} style={{ fontSize: "25px" }}>
+      <p className={`${rob} text-[16px] md:text-[20px] text-bl-muted mt-2 max-w-2xl mx-auto`}>
         Lorem Ipsum Lorem Ipsum Lorem Ipsum
       </p>
 

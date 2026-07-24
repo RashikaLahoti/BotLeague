@@ -9,12 +9,11 @@ export function RegisterSection() {
     <section className="w-full bg-[#1A1919]">
       <div className="max-w-[1440px] mx-auto px-6 py-10">
         <p
-          className={`${orb} uppercase text-bl-red tracking-widest`}
-          style={{ fontSize: "45px", fontWeight: 600 }}
+          className={`${orb} text-[22px] md:text-[30px] font-semibold uppercase text-bl-red tracking-widest leading-tight`}
         >
           Why Register?
         </p>
-        <h2 className={`${orb} uppercase text-bold text-white leading-tight mb-5`} style={{ fontSize: "50px" }}>
+        <h2 className={`${orb} text-[32px] md:text-[48px] font-bold uppercase text-white leading-tight mb-5 mt-1`}>
           The League Advantage
         </h2>
 
@@ -44,8 +43,8 @@ export function RegisterSection() {
           <img
             src={leaderboard}
             alt="Leaderboard"
-            className="max-w-full h-auto justify-self-center lg:justify-self-end"
-            style={{ width: "760px", height: "680px", objectFit: "contain" }}
+            className="max-w-full h-auto max-h-[300px] sm:max-h-[450px] lg:max-h-[680px] justify-self-center lg:justify-self-end"
+            style={{ width: "760px", objectFit: "contain" }}
           />
         </div>
       </div>
