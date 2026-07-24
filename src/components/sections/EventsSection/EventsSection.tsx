@@ -178,8 +178,10 @@ function CompetitionCard({ title, subtitle, status }: CompetitionCardProps) {
       <div className="mt-[11px] h-[2px] w-full bg-[#383838]" />
 
       {/* Bracket */}
-      <div className="mt-[20px] flex justify-center">
-        <BracketDiagram />
+      <div className="mt-[20px] flex justify-center overflow-x-auto w-full">
+        <div className="min-w-[365px]">
+          <BracketDiagram />
+        </div>
       </div>
     </div>
   );
@@ -307,16 +309,16 @@ export function EventsSection() {
       }}
     >
       {/* Centered Content Container */}
-      <div className="mx-auto w-full max-w-[1440px] px-[62px] pb-[80px] pt-[69px]">
+      <div className="mx-auto w-full max-w-[1440px] px-6 xl:px-[62px] pb-[80px] pt-[69px]">
         {/* Main Heading */}
         <h2
-          className={`${orb} text-[50px] font-bold uppercase leading-[60px] tracking-[-1px] text-white`}
+          className={`${orb} text-[32px] sm:text-[40px] xl:text-[50px] font-bold uppercase leading-[40px] sm:leading-[50px] xl:leading-[60px] tracking-[-1px] text-white text-center xl:text-left`}
         >
           Competitions &amp; Events
         </h2>
 
         {/* Columns */}
-        <div className="mt-[38px] grid grid-cols-[402px_346px_344px] justify-center gap-[17px]">
+        <div className="mx-auto mt-[38px] grid max-w-md grid-cols-1 gap-[17px] justify-center items-start xl:max-w-none xl:grid-cols-[402px_346px_344px]">
           {/* =========================
               LIVE NOW
           ========================== */}
